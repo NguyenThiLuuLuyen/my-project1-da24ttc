@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Đăng ký Câu lạc bộ</title>
+  <link rel="stylesheet" href="../css/style3.css">
+</head>
+<body>
+
+<div class="container">
+  <form id="frmDangKy">
+    <h2>Đăng ký Câu lạc bộ</h2>
+
+    
+    <div class="form-group">
+      <label for="hoten">Họ và tên:</label>
+      <input class="form-control" type="text" id="hoten" name="hoten" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="namsinh">Năm sinh:</label>
+      <input class="form-control" type="number" id="namsinh" name="namsinh" min="1900" max="2026" required>
+    </div>
+
+    <div class="form-group">
+      <label for="lop">Lớp:</label>
+      <input class="form-control" type="text" id="lop" name="lop" required>
+    </div>
+
+    <div class="form-group">
+    <label>Giới tính:</label><br>
+    <input type="radio" id="nam" name="gioitinh" value="Nam">
+    <label for="nam">Nam</label>
+    <input type="radio" id="nu" name="gioitinh" value="Nữ">
+    <label for="nu">Nữ</label>
+    </div>
+    <div class="form-group">
+      <label for="diachi">Địa chỉ:</label>
+      <input class="form-control" type="text" id="diachi" name="diachi" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="sdt">Số điện thoại:</label>
+      <input class="form-control" type="tel" id="sdt" name="sdt" pattern="[0-9]{10}" placeholder="10 chữ số" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input class="form-control" type="email" id="email" name="email" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="truong">Trường:</label>
+      <input class="form-control" type="text" id="truong" name="truong" required>
+    </div>
+
+    
+    <div class="form-group">
+      <label>Câu lạc bộ tham gia:</label><br>
+      <input type="checkbox" name="clb[]" value="bongda"> Bóng đá<br>
+      <input type="checkbox" name="clb[]" value="bongchuyen"> Bóng chuyền<br>
+      <input type="checkbox" name="clb[]" value="caulong"> Cầu lông<br>
+    </div>
+
+    
+    <input class="button" type="submit" value="Đăng ký">
+    <input class="button" type="reset" value="Nhập lại">
+
+  </form>
+</div>
+
+</body>
+</html>
