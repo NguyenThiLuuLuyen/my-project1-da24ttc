@@ -1,56 +1,56 @@
 const paintingList = [
     { 
-        id: "01", 
-        name: "Mona Lisa", 
-        artist: "Leonardo da Vinci",
+        id:"01", 
+        name:"Mona Lisa", 
+        artist:"Leonardo da Vinci",
         price: 500,
-        image: "../assets/image/monalisa.jpg", 
-        productLink: "painting-detail.html" 
+        image:"../assets/image/monalisa.jpg", 
+        productLink:"painting-detail.html" 
     },
 
     { 
-        id: "02", 
+        id:"02", 
         name: "Starry Night", 
-        artist: "Vincent van Gogh",
-        price: 650,
-        image: "../assets/image/starrynight.jpg", 
-        productLink: "painting-detail.html" 
+        artist:"Vincent van Gogh",
+        price:650,
+        image:"../assets/image/starrynight.jpg", 
+        productLink:"painting-detail.html" 
     },
 
     { 
-        id: "03", 
-        name: "The Scream", 
-        artist: "Edvard Munch",
-        price: 450,
-        image: "../assets/image/thescream.jpg", 
-        productLink: "painting-detail.html" 
+        id:"03", 
+        name:"The Scream", 
+        artist:"Edvard Munch",
+        price:450,
+        image:"../assets/image/thescream.jpg", 
+        productLink:"painting-detail.html" 
     },
 
     { 
-        id: "04", 
-        name: "Girl with a Pearl Earring", 
-        artist: "Johannes Vermeer",
-        price: 700,
-        image: "../assets/image/girlpearl.jpg", 
-        productLink: "painting-detail.html" 
+        id:"04", 
+        name:"Girl with a Pearl Earring", 
+        artist:"Johannes Vermeer",
+        price:700,
+        image:"../assets/image/girlpearl.jpg", 
+        productLink:"painting-detail.html" 
     },
 
     { 
-        id: "05", 
-        name: "The Last Supper", 
-        artist: "Leonardo da Vinci",
-        price: 900,
-        image: "../assets/image/lastsupper.jpg", 
-        productLink: "painting-detail.html" 
+        id:"05", 
+        name:"The Last Supper", 
+        artist:"Leonardo da Vinci",
+        price:900,
+        image:"../assets/image/lastsupper.jpg", 
+        productLink:"painting-detail.html" 
     },
 
     { 
-        id: "06", 
-        name: "Sunflowers", 
-        artist: "Vincent van Gogh",
-        price: 550,
-        image: "../assets/images/sunflowers.jpg", 
-        productLink: "painting-detail.html" 
+        id:"06", 
+        name:"Sunflowers", 
+        artist:"Vincent van Gogh",
+        price:550,
+        image:"../assets/image/sunflowers.jpg", 
+        productLink:"painting-detail.html" 
     }
 ];
 
